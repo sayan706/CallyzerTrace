@@ -6,7 +6,7 @@ import json
 
 app = Flask(__name__)
 
-API_TOKEN = "c4b1fc4b-ecac-4199-9477-a737658b5036"
+API_TOKEN = "give your token"
 API_URL = "https://api1.callyzer.co/api/v2.1/call-log/history"
 
 def get_ist_epoch(hour, minute, target_date=None):
